@@ -10,8 +10,7 @@
         <img class="page-header__logo-image" src="http://placehold.it/150x100" width="75" height="22" alt="Приложение «Pink»">
       </a>
       <nav class="main-nav">
-        <button class="main-nav__toggle main-nav__toggle--open" type="button">Открыть меню</button>
-        <button class="main-nav__toggle main-nav__toggle--close" type="button">Закрыть меню</button>
+        <button class="main-nav__toggle main-nav__toggle" type="button">Открыть меню</button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--active">
@@ -47,7 +46,7 @@
         <h2 class="visually-hidden">Плюсы приложения «Pink»</h2>
         <p class="advantages__text">Устали от серости мегаполиса?</p>
         <p class="advantages__text">Нам есть, что вам предложить!</p>
-        <ul compact="advantages__list">
+        <ul class="advantages__list">
           <li class="advantages__item">
             <h3 class="advantages__title">Поднимает настроение</h3>
             <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
@@ -64,6 +63,7 @@
         <img class="advantages__img" src="http://placehold.it/150x100" width="157" height="320" alt="Интерфейс приложения «Pink»">
       </section>
       <section class="reviews">
+        <h2 class="visually-hidden">Отзывы пользователей</h2>
         <ul class="reviews__list">
           <li class="reviews__item">
             <p class="reviews__author">Николай Петров</p>
@@ -72,7 +72,7 @@
           <li class="reviews__item"></li>
           <li class="reviews__item"></li>
         </ul>
-        <ul class="slider-tumblers advantages__slider-tumblers">
+        <ul class="slider-tumblers reviews__slider-tumblers">
           <li class="slider-tumblers__tumbler slider-tumblers__tumbler--active"></li>
           <li class="slider-tumblers__tumbler"></li>
           <li class="slider-tumblers__tumbler"></li>
@@ -82,9 +82,7 @@
         <h2 class="visually-hidden">Тарифы приложения «Pink»</h2>
           <ul class="prices__list">
             <li class="prices__item"></li>
-            <li class="prices__item prices__item--standard">
-              <span class="ribbon prices__ribbon">Хит</span>
-              <!-- Лучше, наверное, ленточку потом псевдоклассом сделать? -->
+            <li class="prices__item prices__item--standard prices__item--hit">
               <h3 class="prices__title">Стандарт</h3>
               <p class="prices__cost">3,99 USD</p>
               <ul class="prices__content">
@@ -110,7 +108,7 @@
         <a href="mailto:mail@htmlacademy.ru" class="contacts__link">mail@htmlacademy.ru</a>
         <p class="contacts__text">Приезжайте в гости:</p>
         <p class="contacts__link">ул. Большая Конюшенная, 19/8</p>
-        <img class="map contacts__map" src="http://placehold.it/150x100" width="320" height="645">
+        <img class="map contacts__map" src="http://placehold.it/150x100" width="320" height="645" alt="Карта">
       </section>
     </main>
   </body>
