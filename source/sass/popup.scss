@@ -1,0 +1,23 @@
+.popup {
+  box-shadow: -9px 2px 20px -2px $form-color;
+  text-align: center;
+}
+
+.popup__title {
+  margin-bottom: 32px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.popup__text {
+  margin-bottom: 42px;
+}
+
+.popup--error {
+  padding: 42px 20px 50px 20px;
+}
+
+.popup__btn-wrapper {
+  padding: 48px 20px 51px 20px;
+  background-color: $extra-color;
+}

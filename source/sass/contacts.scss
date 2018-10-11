@@ -1,0 +1,36 @@
+.contacts {
+  padding: 46px 0 15px 0;
+  text-align: center;
+}
+
+.contacts__header {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: lighter;
+  margin-bottom: 34px;
+}
+
+.contacts__text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.contacts__link {
+  display: block;
+  padding: 0 12px;
+  margin-bottom: 24px;
+  color: $active-color;
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  &:hover {
+    color: $main-color;
+    text-decoration: underline;
+  }
+  &:active {
+    color: rgba($main-color, 0.3);
+    text-decoration: none;
+  }
+}

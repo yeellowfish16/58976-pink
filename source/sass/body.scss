@@ -1,0 +1,19 @@
+body {
+  box-sizing: border-box;
+  position: relative;
+  width: 320px;
+  margin: 0;
+  padding: 0;
+  padding-top: 281px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: $main-color;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
