@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <header class="page-header">
@@ -32,7 +33,7 @@
     <main class="page-main">
       <h1 class="visually-hidden">Приложение «Pink»</h1>
       <section class="intro intro--index">
-        <img class="intro__img" src="http://placehold.it/150x100" width="320" height="314" alt="Приложение на iPhone">
+        <img class="intro__img" src="http://placehold.it/150x100" width="258" height="286" alt="Приложение на iPhone">
       </section>
       <section class="download">
         <h2 class="visually-hidden">Скачать приложение «Pink»</h2>
@@ -60,7 +61,9 @@
             <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
           </li>
         </ul>
-        <img class="advantages__img" src="http://placehold.it/150x100" width="157" height="320" alt="Интерфейс приложения «Pink»">
+        <div class="advantages__img-wrapper">
+          <img class="advantages__img" src="http://placehold.it/150x100" width="157" height="320" alt="Интерфейс приложения «Pink»">
+        </div>
       </section>
       <section class="reviews">
         <h2 class="visually-hidden">Отзывы пользователей</h2>
@@ -81,7 +84,7 @@
       <section class="prices">
         <h2 class="visually-hidden">Тарифы приложения «Pink»</h2>
           <ul class="prices__list">
-            <li class="prices__item"></li>
+            <!-- <li class="prices__item"></li> -->
             <li class="prices__item prices__item--standard prices__item--hit">
               <h3 class="prices__title">Стандарт</h3>
               <p class="prices__cost">3,99 USD</p>
@@ -91,7 +94,7 @@
                 <li class="prices__content-item prices__content-item--not">Комментарии</li>
               </ul>
             </li>
-            <li class="prices__item"></li>
+            <!-- <li class="prices__item"></li> -->
           </ul>
           <ul class="slider-tumblers prices__slider-tumblers">
             <li class="slider-tumblers__tumbler"></li>
@@ -108,7 +111,9 @@
         <a href="mailto:mail@htmlacademy.ru" class="contacts__link">mail@htmlacademy.ru</a>
         <p class="contacts__text">Приезжайте в гости:</p>
         <p class="contacts__link">ул. Большая Конюшенная, 19/8</p>
-        <img class="map contacts__map" src="http://placehold.it/150x100" width="320" height="645" alt="Карта">
+      </section>
+      <section class="map">
+        <img class="map" src="http://placehold.it/150x100" width="320" height="645" alt="Карта">
       </section>
     </main>
   </body>
