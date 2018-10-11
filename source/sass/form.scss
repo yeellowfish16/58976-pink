@@ -34,18 +34,18 @@
   line-height: 30px;
   color: $main-color;
   border: none;
-  box-shadow: 0 0 0px 2px $form-color;
+  box-shadow: 0 0 0 2px $form-color;
 
   &::placeholder {
     color: $main-color;
   }
 
   &:hover {
-    box-shadow: 0 0 0px 2px $main-color;
+    box-shadow: 0 0 0 2px $main-color;
   }
 
   &:focus {
-    box-shadow: 0 0 0px 2px $active-color;
+    box-shadow: 0 0 0 2px $active-color;
   }
 }
 

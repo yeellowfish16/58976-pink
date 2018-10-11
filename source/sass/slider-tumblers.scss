@@ -22,6 +22,7 @@
   &:hover {
     background-color: #7e868f;
   }
+
   &:active {
     background-color: rgba($main-color, 0.1);
   }
@@ -29,5 +30,5 @@
 
 .slider-tumblers__tumbler--active {
   background-color: #ffffff;
-  box-shadow: 0 0 0px 3px $main-color;
+  box-shadow: 0 0 0 3px $main-color;
 }
