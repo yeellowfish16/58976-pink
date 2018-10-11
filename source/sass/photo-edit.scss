@@ -10,13 +10,13 @@
   flex-wrap: wrap;
   width: 100%;
   transform: translateX(-18px);
-  padding: 49px 18px 28px 18px;
+  padding: 49px 18px 25px 18px;
   border-bottom: 1px solid #dddfe0;
 }
 
 .photo-edit__option {
   display: block;
-  margin-bottom: 64px;
+  margin-bottom: 46px;
 
   &:not(:last-of-type) {
     margin-right: 40px;
@@ -28,7 +28,11 @@
 }
 
 .photo-edit__result-btn {
-  padding-top: 39px;
+  padding-top: 41px;
+}
+
+.photo-edit__button {
+  width: 98%;
 }
 
 .photo-edit__button--post {

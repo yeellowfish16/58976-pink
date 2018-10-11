@@ -1,21 +1,21 @@
 .photos {
-  padding-top: 45px;
-  padding-bottom: 49px;
+  padding-top: 46px;
+  padding-bottom: 42px;
 }
 
 .photos__text {
   line-height: 30px;
   text-align: center;
-  padding: 0 44px;
+  padding: 0 38px;
 
   &:not(:last-child) {
     margin-bottom: 49px;
   }
 
   &:last-child {
-    padding-top: 17px;
-    padding-left: 38px;
-    padding-right: 38px;
+    padding-top: 16px;
+    padding-left: 25px;
+    padding-right: 29px;
   }
 }
 
@@ -32,9 +32,9 @@
 
 .photos__label {
   position: absolute;
-  padding: 6px 21px;
+  padding: 6px 20px;
   top: 0;
-  right: 20px;
+  right: 19px;
   color: #ffffff;
   font-size: 12px;
   line-height: 24px;
@@ -48,7 +48,7 @@
 }
 
 .photos__description-wrapper {
-  padding: 18px 23px 25px 18px;
+  padding: 18px 22px 25px 18px;
   background-color: $extra-color;
   margin-bottom: 20px;
 }
