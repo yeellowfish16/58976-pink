@@ -1,0 +1,16 @@
+.socials {
+  margin-bottom: 39px;
+}
+
+.socials__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.socials__item:not(:last-child) {
+  margin-right: 12px;
+}

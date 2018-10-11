@@ -1,0 +1,63 @@
+.photo-edit {
+  background-color: $extra-color;
+  padding: 20px 20px 49px 20px;
+}
+
+.photo-edit__option-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  transform: translateX(-18px);
+  padding: 49px 18px 28px 18px;
+  border-bottom: 1px solid #dddfe0;
+}
+
+.photo-edit__option {
+  display: block;
+  margin-bottom: 64px;
+
+  &:not(:last-of-type) {
+    margin-right: 40px;
+  }
+}
+
+.photo-edit__range {
+  width: 80%;
+}
+
+.photo-edit__result-btn {
+  padding-top: 39px;
+}
+
+.photo-edit__button--post {
+  margin-bottom: 18px;
+  color: $active-color;
+  box-shadow: 0 0 0 3px $active-color;
+
+  &:hover {
+    color: #ffffff;
+    background-color: $active-color;
+  }
+
+  &:active {
+    color: rgba(#ffffff, 0.3);
+    background-color: $active-color;
+  }
+}
+
+.photo-edit__button--cancel {
+  color: rgba($main-color, 0.1);
+  box-shadow: 0 0 0 3px rgba($main-color, 0.1);
+
+  &:hover {
+    color: rgba($main-color, 0.3);
+    box-shadow: 0 0 0 3px rgba($main-color, 0.3);
+  }
+
+  &:active {
+    color: rgba(#ffffff, 0.3);
+    background-color: rgba($main-color, 0.3);
+  }
+}
