@@ -7,9 +7,11 @@
   line-height: 30px;
   text-align: center;
   padding: 0 44px;
+
   &:not(:last-child) {
     margin-bottom: 49px;
   }
+
   &:last-child {
     padding-top: 17px;
     padding-left: 38px;
@@ -33,7 +35,7 @@
   padding: 6px 21px;
   top: 0;
   right: 20px;
-  color: #fff;
+  color: #ffffff;
   font-size: 12px;
   line-height: 24px;
   font-weight: bold;

@@ -7,8 +7,7 @@
 .site-list__item {
   width: 100%;
   text-align: center;
-  box-shadow: inset 0 2px 1px rgba(255, 255, 255, 0.15),
-              0 1px 0px #000000;
+  box-shadow: inset 0 2px 1px rgba(255, 255, 255, 0.15), 0 1px 0px #000000;
 }
 
 .site-list__link {
@@ -16,13 +15,15 @@
   padding: 16px 0;
   text-decoration: none;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffffff;
   font-size: 18px;
   line-height: 32px;
   font-weight: bold;
+
   &:hover {
     color: $active-color;
   }
+
   &:active {
     color: rgba($active-color, 0.3);
   }

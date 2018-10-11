@@ -27,7 +27,7 @@
 .prices__title {
   margin: 0;
   padding-top: 19px;
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
   font-size: 18px;
   line-height: 30px;
@@ -36,7 +36,7 @@
 
 .prices__cost {
   padding-bottom: 20px;
-  color: #fff;
+  color: #ffffff;
   font-weight: lighter;
   font-size: 24px;
   line-height: 30px;
@@ -48,26 +48,27 @@
   margin: 0;
   padding: 0;
   text-align: left;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .prices__content-item {
   padding: 14px 49px 15px 22px;
   line-height: 30px;
   text-transform: uppercase;
-  &:not(:last-child){
+
+  &:not(:last-child) {
     border-bottom: 2px solid #e5e5e5;
   }
 }
 
 .prices__item--hit::before {
-  content: 'Хит';
+  content: "Хит";
   position: absolute;
   top: 10px;
   left: -25px;
   width: 100px;
   padding: 0;
-  color: #fff;
+  color: #ffffff;
   line-height: 30px;
   background-color: $active-color;
   text-transform: uppercase;

@@ -1,21 +1,23 @@
 .download {
   padding: 31px 20px 30px 20px;
-  color: #fff;
+  color: #ffffff;
   font-weight: lighter;
   text-align: center;
   background-color: #1d2631;
 }
 
 .download__link {
-  color: #fff;
-  box-shadow: 0px 0px 0px 3px #fff;
+  color: #ffffff;
+  box-shadow: 0px 0px 0px 3px #ffffff;
   margin-bottom: 32px;
+
   &:hover {
-    background-color: #fff;
+    background-color: #ffffff;
     color: $active-color;
   }
+
   &:active {
-    background-color: #fff;
+    background-color: #ffffff;
     color: rgba($active-color, 0.3);
   }
 }

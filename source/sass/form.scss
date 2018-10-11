@@ -12,7 +12,8 @@
 
 .form__label {
   display: block;
-  &:not(:last-of-type){
+
+  &:not(:last-of-type) {
     margin-bottom: 19px;
   }
 }
@@ -34,12 +35,15 @@
   color: $main-color;
   border: none;
   box-shadow: 0 0 0px 2px $form-color;
+
   &::placeholder {
     color: $main-color;
   }
+
   &:hover {
     box-shadow: 0 0 0px 2px $main-color;
   }
+
   &:focus {
     box-shadow: 0 0 0px 2px $active-color;
   }
@@ -71,13 +75,14 @@
   padding-left: 67px;
   font-size: 18px;
   line-height: 30px;
-  &:not(:last-child){
+
+  &:not(:last-child) {
     margin-bottom: 52px;
   }
 }
 
-.form__item--app{
-  &:not(:last-child){
+.form__item--app {
+  &:not(:last-child) {
     margin-bottom: 45px;
   }
 }
@@ -121,18 +126,21 @@
 .form__button,
 .popup__button {
   padding: 23px 0;
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
   background-color: #2aab6d;
   border-radius: 3px;
-  &:hover{
+
+  &:hover {
     background-color: #1c9b5e;
   }
-  &:active{
-    color: rgba(#fff, 0.3);
+
+  &:active {
+    color: rgba(#ffffff, 0.3);
     background-color: #1c9b5e;
   }
-  &:disabled{
+
+  &:disabled {
     background-color: $form-color;
   }
 }

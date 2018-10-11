@@ -14,18 +14,20 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  &:not(:last-child){
+
+  &:not(:last-child) {
     margin-right: 19px;
   }
+
   &:hover {
     background-color: #7e868f;
   }
-  &:active{
+  &:active {
     background-color: rgba($main-color, 0.1);
   }
 }
 
 .slider-tumblers__tumbler--active {
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: 0 0 0px 3px $main-color;
 }
